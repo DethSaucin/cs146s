@@ -1,0 +1,5 @@
+=== request 001  model=qwen2.5-coder:3b  bytes=44416  messages=2
+    tools sent=12: built-in=11 mcp=0 placeholder=1; deferred-by-name=10 -> total reachable=21
+    system blocks=3 (literal '<system-reminder>' mentions inside system text: 1); role=system messages=[1]
+    <system-reminder> locations: ['msg[0]/user/textx1', 'msg[0]/user/textx1']
+    cache_control breakpoints: ['system[1]', 'system[2]', 'msg[1]']

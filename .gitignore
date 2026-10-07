@@ -1,0 +1,18 @@
+# local-only artifacts (captures, configs, envs, weights, logs)
+capture/
+claude-home/
+.venv/
+modern-software-dev-assignments/
+/scratch-textstats/
+sitejs/
+site*.html
+lecture_*_transcript.txt
+*.flows
+*.log
+*.gguf
+.ollama/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+**/.claude/settings.local.json
